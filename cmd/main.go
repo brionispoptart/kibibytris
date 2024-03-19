@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	ebiten.SetWindowSize(500, 1000)
+	ebiten.SetWindowSize(450, 900)
 	ebiten.SetWindowTitle("kibibytris")
 
 	gameInstance := game.NewGame() // Corrected to reference the game package
